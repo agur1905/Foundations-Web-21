@@ -1,0 +1,19 @@
+<doctype html>
+    <html>
+        <head>
+            <title>code challenge one</title>
+            <link rel="stylesheet" href="css/standard.css"/>
+        </head>
+    
+        </body>
+            <nav>
+                <a href="cats.html">cats</a>
+                <a href="dogs.html">dogs</a>
+                <a href="rabbits.html">rabbits</a>
+                <a href="birds.html">Birds</a>
+            </nav>
+
+            <p>this is code challenge one</p>
+        </bodoldy>
+    </html>
+    
