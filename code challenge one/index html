@@ -2,7 +2,7 @@
     <html>
         <head>
             <title>code challenge one</title>
-            <link rel="stylesheet" href="css/standard.css"/>
+            <link rel="stylesheet" href="css/standard.css"/>p
         </head>
     
         </body>
@@ -13,7 +13,6 @@
                 <a href="birds.html">Birds</a>
             </nav>
 
-            <p>this is code challenge one</p>
-        </bodoldy>
+            <p=  This is code challenge one</i>
+         </body>
     </html>
-    
