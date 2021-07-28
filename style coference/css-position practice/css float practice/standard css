@@ -14,10 +14,21 @@
 
 <section>
   <code>&#60;section&#62; <br> float: left;</code>
-</section>
+</section><!--
+
+Removing inline block space
+<section>
+    <code>&#60;section>&#62; <br> float
+    left;</code>
+    <section><!--
+
+    removing inline block space
+
+
 
 <footer>
   <code>&#60;footer&#62;</code>
 </footer>
 
+</body>
 
