@@ -88,6 +88,21 @@ body{
     width: 960px;
 }
 
+/*
+============================================================================
+Grid
+============================================================================
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+
 h1, h3, h4, h5, p {
     margin-bottom: 22px;
 }
@@ -108,3 +123,91 @@ h1, h3, h4, h5, p {
 .hero {
     padding: 22px 80px 66px 80px;
 }
+.group:before,
+.group:after, {
+    content: "";
+    dis
+    play: table;
+}
+{
+    .group:after {
+        clear: both;
+}
+{
+    .group {
+        clear: both;
+        zoom: 1;
+}
+<h1 class="logo">
+    <a href="index.html"><img src="assets/images/logo-1.png" alt=
+div {
+    width: 400px;
+}
+
+div {
+    height: 100px
+}
+
+div {
+    padding: 20px;
+}
+
+div {
+    margin: 20px;
+}
+
+div {
+    margin: 10px 20px;
+}
+
+div {
+    border: 6px solid #949599;
+    
+}
+
+code {
+    background: #2db34a;
+    border-radius: 6px;
+    color: #fff;
+    display: block;
+    font: 14px/24px "source code pro", Inconsolate, "Lucida Console", Terminal, "courie new";
+Courier;
+    padding: 24px 15px;
+    text-align: center;
+}
+header,
+section,
+aside,
+footer {
+    margin: 0 1.5px 24px 1.5px;
+ }
+
+section {
+    float: left;
+    width: 30%;
+}
+footer {clear: both;
+    margin-bottom: 0;
+}
+ nav {
+     background-color: black;
+     display: flex;
+     justify-content: space-around;
+ }   
+
+
+
+ a {
+     color: #f0f0f0;
+     text-decoration: none;
+ }
+ section {
+     display: inline-block;
+     margin: 0 1.5%;
+     width: 30%;
+ }
+
+ html {
+     font-size: large;
+     font-family: arial, sans-serif;
+ }
