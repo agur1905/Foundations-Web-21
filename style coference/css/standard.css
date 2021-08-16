@@ -212,6 +212,13 @@ primary header
     font-weight: 100;
 }
 
+.teaser img {
+    border-raduis: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
 
 btn {
     border-radius: 5px;
@@ -236,6 +243,9 @@ btn {
 
 .hero {
     padding: 22px 80px 66px 80px;
+}
+
+
 }
 
 .group:before,
@@ -414,25 +424,18 @@ a:hover {
     .speaker {
         margin-bottom: 44px;
     }
+    .speaker-info img {
+        border-radius: 50%;
+        height: 130px;
+        margin: -66px 0 22px 0;
+        vertical-align: top;
 
-    .why-attend {
-        list-style: square;
-        margin: 0 0 22px 30px;
 
-    }
-
-    form {
-        margin-bottom: 22px;
-
-    }
-
-    
-    imput,
-    select,
-    textarea {
-        font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, arial, sans-serif;
-
-    }
+    /*
+    ================================================
+    Register
+    ================================================
+    */
 
     .register-group label {
         color: #648880;
@@ -475,11 +478,10 @@ a:hover {
         background: #77a198;
     }
 
-
-
 /*
 ------------------------------------------
 Schedule
+------------------------------------------
 */
 
 table {
@@ -546,4 +548,19 @@ table h4 {
 
 .schedule-offset {
     color: #a9b2b9;
+}
+
+
+/*
+------------------------------------------
+Venue
+------------------------------------------
+*/
+
+.venue-theater{
+    margin-bottom: 66px;
+
+}
+.venue-map{
+    height: 264px;
 }
