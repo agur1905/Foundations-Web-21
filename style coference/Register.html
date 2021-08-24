@@ -1,103 +1,106 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>Register - Style Conference</title>
+        <title>Style Conference</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/standard.css" />
-        <link rel="stylesheet" href="assets/stylesheets/main.css">
-        <link rel="stylesheet" href="http://fonts.googleapis.com?familu=lato:100,300,400""
     </head>
 
-        <!-- Header -->
+    <body>
 
-        <header class="primary-header container group">"
-
-            <h1 class="logo"> 
-                <a href="index.html"><img src="assets/image/logo-1.png alt="logo" width:"150" height:"200">
-                    <img src="images/logo.pn alt="logo"/>
+        <!-- Primary Header / Nav-->
+        <header class="primary-header container group">
+            <h1 class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="logo"/>
+                </a>
             </h1>
 
-            <h3 Class="tagline">August 24&ndash - 26th &mdash; La Vista, NE</h3>
+            <h3 class="tagline">August 24 - 26th Omaha, NE</h3>
 
             <nav class="nav primary-nav">
-
-                Each year we strive to reach and teach developers nation wide, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.
-            <ul>
-                <li></li><a href="index.html">Home</a></ul><!--
-                <li></li><a href="speakers.html">Speaker</a></ul><!--
-                <li></li><a href="schedule.html">Schedule</a></ul><!--
-                <li></li><a href="venue.html">Venue</a></ul><!--
-                <li></li><a href="register.html">Register</a></ul><!--
-            </ul>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="speakers.html">Speaker</a></li>
+                  <li><a href="schedule.html">Schedule</a></li>
+                  <li><a href="venue.html">Venue</a></li>
+                  <li><a href="register.html">Register</a></li> 
+                </ul>
             </nav>
         </header>
+        <!-- Interior Hero -->
+        <section class="row-alt">
+            <div class="lead container">
+                <h1>Register</h1>
 
+                <p>
+                    Each year we strive to reach and teach developers nation wide, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.
 
-        <footer>
+                </p>
+            </div>
+        </section>
+
+        <section class="row">
+            <div class="grid">
+                <section class="col-2-3">
+
+                    <h2>Purchase a Conference Pass</h2>
+                    <h5>$99 per Pass</h5>
+                    <p>
+                        Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we'll follow up and provide a receipt for your purchase. See you soon!
+                    </p>
+                    <h4>Benefits of Attending</h4>
+                    <ul class="why-attend">
+                        <li>Over twenty world-class speakers sharing their knowledge and journey.</li>
+                        <li>Three day of hands on workshops and professional presentations</li>
+                        <li>Hosted at The Embassy Suites, a beautiful Conference Center where many can gether</li>
+                        <li>Gain experience and vital information on the latest software, techniques, and best practices.</li>
+                    </ul>
+                </section><!--
+                --><form class="col-1-3" action="#" method="post">
+                    <fieldset class="register-group">
+                        <label for="name">Name
+                            <input type="text" name="name" placeholder="Full Name" required>
+                        </label>
+
+                        <label for="email">Email
+                            <input type="email" name="email" placeholder="Email Address" required>
+                        </label>
+
+                        <label for="quantity">Number of Passes
+                            <select name="quantity" required>
+                                <option value="1" selected>1</option>
+                                <option value="2" >2</option>
+                                <option value="3" >3</option>
+                                <option value="4" >4</option>
+                                <option value="5" >5</option>
+                            </select>
+                        </label>
+
+                        <label for="comments">Comments
+                            <textarea name="comments"></textarea>
+                        </label>
+                    </fieldset>
+
+                    <input class="btn btn-default" type="submit" name="submit" value="Purchase">
+                </form>
+                   
+            </div>
+        </section>
+
+        <footer class="primary-footer container group">
             <small>&copy; Developer Style Conference</small>
 
-            <nav>
+            <nav class="nav">
                 <a href="index.html">Home</a>
                 <a href="speakers.html">Speaker</a>
                 <a href="schedule.html">Schedule</a>
                 <a href="venue.html">Venue</a>
                 <a href="register.html">Register</a>
             </nav>
+        </footer>
 
-    <section class="row">
-        <div class="grid">
-  
-            <section class="row-alt">
-                <div class="lead container">
-            <section class="col-2-3">
-
-            <h2>Purchase a Conference Pass</h2>
-            <h5>$99 per Pass</h5>
-            <p>Purchase your Styles Conference pass using the form to the right. Multiple passes may be purchased within the same order, so feel free to bring a friend or two along. Once your order is finished we'll follow up and provide a receipt for your purchase. See you soon!</p>
-            <h4>Benefits of Attending</h4>
-            <ul class="why-attend">
-            <li>Over twenty world-class speakers sharing their knowledge and journey.</li>
-            <li>Three day of hands on workshops and professional presentations</li>
-            <li>Hosted at The Embassy Suites, a beautiful Conference Center where many can gether</li>
-            <li>Gain experience and vital information on the latest software, techniques, and best practices.</li>
-        </ul>
-
-
-                <form class=".col-1-3" action=#"method"="post">
-    
-                    <fieldset>
-                
-                    <label>
-                        Name
-                        <input type="text" name="name" placeholder="Full Name" required>
-                    </label>
-                
-                    <label>
-                        Email
-                        <input type="email" name="name" placeholder="Email address" required>
-                    </label>
-                
-                    <label for="email"> Number of Passes
-                        <option value="1" selected>1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                    </select>
-                    </label>
-                
-                    <label for="comments">Comments
-                        <testarea name"comments"></textarea>
-                    </label>
-                
-                    </fieldset>
-                
-                    <input type="submit" name+"submit" value="Purchase">
-                
-                      </form>
-
-                    </div>
-
-                </section>
-
-                   
+    </body>
+</html>
