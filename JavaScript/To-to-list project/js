@@ -1,0 +1,34 @@
+
+function newItem(){
+
+    //this is grabbing the user text inside the input with the input id. and assinging it to a vaiable named  item
+    var item = document.getElementById("input").value; 
+
+    //this is grabbing the <js> from the HTML file and assinging it to a varible named ul
+    var ul= document.getElementById("list");
+
+    // this is creating a <li> element in HTML and assinging it to a varible named li
+    var li = document.createElement("li");
+
+    //the appendChild() method is taking the value at our item (inptt value) and treating a TextNote (string of characters) that will append as "- toDoList"
+    li.appendChild(document. createTextNode("-" + item));
+
+    //this is placing the <li> inside of the <"ul">
+    ul.appendChild(li);
+
+    //this is resetting the value of our input back to an empty string
+    document.getElementById"input").value = "";
+    li.onclick = removeItem;
+
+    }
+
+    document.body.onKeyUp = function(e){
+        if(e.keyCode == 13){
+            newItem();
+        }
+    };
+
+    // the e perameter represents the element that is effect by event
+    function removeItem(e){
+    e.target.parentElement.removeChild(e.target)
+    }
