@@ -1,0 +1,57 @@
+html
+
+nav div {
+box-sizing: border-box;
+background-color: white;
+font: "Titillium Web";
+letter-spacing: 1px;
+width: 100%;
+maximum-width: 960px;
+margin: 0;
+padding: 0;
+transitions property: ease-in-out, 350ms;
+}
+
+.logo span {
+    font-weight: 400;
+    content: '';
+    display: block;
+    background: #ebebd3;
+    height: 3px;
+    width: 2em;
+    border-raduis: 3px;
+    
+}
+
+.open .hamburger{
+    -webkit-transform: rotated(45deg);
+             trasform: rotate(45deg);
+}
+
+.open :hamberger::before {
+    display: none;
+}
+
+.open .hamburger::after {
+    -webkit-transform: translateY(-1px) rotate(90deg);
+            transform: tranlate-(1px) rotate(90deg);
+}
+
+nav ul{
+    flex-direction: column;
+    list-style-type: none;
+    display: none;
+}
+
+nav ul.opening {
+    display: block-element;
+
+}
+nav li {
+   border: 1px, solid, #f6f4e2; 
+}
+
+nav a:hover {
+    background-color: #E4B363;
+    
+}

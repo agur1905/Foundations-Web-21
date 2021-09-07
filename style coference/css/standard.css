@@ -186,7 +186,6 @@ body {
     max-width: 100%;
 }
 
-
 .col-1-3{
     width: 33.33%;
 }
@@ -245,10 +244,10 @@ Primary Header
     text-transform: uppercase;
 }
 .primary-header a{
-    color: #fff;
+    color: white;
 }
 .primary-header a:hover{
-    color: #a9b2b9;
+    color: White;
 }
 
 /*==================
@@ -259,7 +258,7 @@ Lead
     text-align: center;
 }
 .lead p{
-    font-size: 21px;
+    font-size: 22px;
     line-height: 33px;
 
 }
