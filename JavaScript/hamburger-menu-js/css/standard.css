@@ -20,6 +20,10 @@ transitions property: ease-in-out, 350ms;
     height: 3px;
     width: 2em;
     border-raduis: 3px;
+    margin: 0;
+    padding-left: 20px;
+    flex: 0 0 200;
+    
     
 }
 
@@ -48,10 +52,39 @@ nav ul.opening {
 
 }
 nav li {
-   border: 1px, solid, #f6f4e2; 
+    border: 1px, solid, #f6f4e2; 
+ }
+ 
+ nav a:hover {
+     background-color: #E4B363;
+     
+ }
+ .site-nav-icon {
+     font-size: 24px;
+     margin: right;
+     width: 33.33%;
+     text-align: right;
+     color: rgba(255,255,255,.4);
+ }
+
+ @media rule 
+ 
+ menu-toggle {
+    min-width: 780px;
+    display: none;
+    flex: border;
 }
 
-nav a:hover {
-    background-color: #E4B363;
-    
+logo {
+    margin: 0;
+    padding-left: 20px;
+    flex: 0 0 200px;
 }
+.site-nav-icon {
+    display: block;
+}
+nav li {
+    border: 1px, solid, #f6f4e2; 
+    flex: 1 1 auto;
+ }
+ 
